@@ -114,7 +114,7 @@ SOME OBERVATIONS
 CPU: Intel i5-8250U  8th generation 4 Cores
 * Vector is slower than Array
 * 1D array is faster than 2D
-* Code runs fastest when Number of Threads == Num of CPU Cores (+- 1)
+* Code runs fastest when Number of Threads == Num of CPU Cores (+- 1), for smaller N (<20) only 1 threads is giving best performance
 * Above Code with single FOR LOOP is slighty slower than using "Collapse" clause in omp, 
   which means Collapse is very optimised implementation than mine
 * Static scheduling is faster than Dynamic
