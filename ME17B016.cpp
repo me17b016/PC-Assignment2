@@ -14,6 +14,9 @@ int main(int argc, char** argv) {
 
   int nthreads = 4;
   int N = stoi(argv[1]);
+  
+  if (N <= 20) nthreads = 1;
+  
   int n = N + 2;
   double T = stold(argv[2]);
   double *arr = (double*)malloc((N * N + 4 * (N + 1)) * sizeof(double));
