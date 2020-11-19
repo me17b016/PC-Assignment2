@@ -26,3 +26,22 @@ Time take is 9937 us
 Number of Iterations: 75
 Number of threads 1
 ```
+## Graph Time vs N
+![Analysis](https://github.com/me17b016/PC-Assignment2/blob/main/line-graph.png)
+
+## Analysis
+|N         | TIME (μs)     | ITERATION |
+| -------- | ------------- | --------- |
+|1         |   1992        |   5       |
+|2         |   9872        |   75      |
+|10        |   8388        |   61      | 
+|20        |   9943        |   64      |
+|50        |   12964       |   66      |
+|100       |   15964       |   65      |
+|200       |   27923       |   70      |
+|500       |   119784      |   69      |
+|800       |   243995      |   69      |
+|1000      |   383468      |   69      |
+|1200      |   540116      |   69      |
+|1500      |   877911      |   71      |
+|2000      |   1563691     |   72      |
