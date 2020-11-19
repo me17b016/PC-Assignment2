@@ -1,5 +1,5 @@
 #include<iostream>
-#include<bits/stdc++.h>
+#include<cmath>
 #include<omp.h>
 #include<string>
 #include<chrono>
